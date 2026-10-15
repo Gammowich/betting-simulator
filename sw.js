@@ -1,8 +1,8 @@
 // Service worker: appen åbner uden net. Kode og ikoner (faste navne med hash) tages fra lageret;
 // model og kampprogram hentes altid nyt først, så man ikke ser gamle data, når der er net.
 // tools/postbuild-sw.ts sætter versionen og de byggede filer ind efter vite build.
-const CACHE = "betting-simulator-d52150632c81";
-const ASSETS = ["./assets/index-BlC2YN-Z.css", "./assets/index-Bqgb5K3c.js"];
+const CACHE = "betting-simulator-40f5ef6de549";
+const ASSETS = ["./assets/index-BlC2YN-Z.css", "./assets/index-Dp64pe3j.js"];
 const SHELL = ["./", "./index.html", "./manifest.webmanifest", "./model.json", "./feed-demo.json", "./icons/icon-192.png", ...ASSETS];
 
 self.addEventListener("install", (e) => {
